@@ -1,4 +1,4 @@
-﻿ Java is an object-oriented, platform-independent programming language used for a variety of applications, from web development to mobile apps.
+﻿ Java is an object-oriented, platform-independen programming language used for a variety of applications, from web development to mobile apps.
 
   Key Features:
 
