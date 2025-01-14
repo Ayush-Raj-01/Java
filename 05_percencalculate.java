@@ -4,7 +4,7 @@ class Percencalculate {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Total Marks: ");
-        int marks = sc.nextInt();
+        float marks = sc.nextInt();
         System.out.println("Enter Marks of English:");
         float a = sc.nextInt();
         System.out.println("Enter Marks of Maths:");
@@ -16,7 +16,7 @@ class Percencalculate {
         System.out.println("Enter Marks of Hindi:");
         float e = sc.nextInt();
         float sum = a+b+c+d+e;
-        int mult = marks*5;
+        float mult = marks*5;
         float x = (sum*100 / mult);
         System.out.println("The percentage are:");
         System.out.println(x); 
