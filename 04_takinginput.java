@@ -11,5 +11,6 @@ class TakingInput {
         int sum = a+b;
         System.out.println("The sum of these numbers are:");
         System.out.println(sum);
+        sc.close();
     }
 }
