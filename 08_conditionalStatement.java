@@ -52,6 +52,7 @@ class Conditional {
             default:
                 System.out.println("ENJOY YOUR LIFE..!!");
         }
+        
         sc.close();
     }
 }
