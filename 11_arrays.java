@@ -2,11 +2,11 @@ class Arrays {
     public static void main(String[] args) {
         // There are three main ways to create an array in jave
         // 1. declaration and memory allocation
-        // int [] marks = new int[5];
+            // int [] marks = new int[5];
         
         // 2. declaration and then memory allocation
-        // int [] marks;
-        // marks = new int[5];
+            // int [] marks;
+            // marks = new int[5];
         // initilisation
             // marks[0] = 100;
             // marks[1] = 40;
