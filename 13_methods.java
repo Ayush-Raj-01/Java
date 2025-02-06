@@ -10,6 +10,10 @@ class Methods {
         }
         return z;
     }
+
+    static void telljock(){       // use of Void with static
+        System.out.println("To the guy who invented zero: Thanks for nothing!");
+    }
     public static void main(String[] args) {
         
         int a = 5;
@@ -26,5 +30,8 @@ class Methods {
         // c1 = obj.logic(a1 , b1);
         System.out.println(c1);
         
+        // printing the void without making the object
+        telljock(); 
+
     }
 }
