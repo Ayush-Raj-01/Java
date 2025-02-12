@@ -15,7 +15,7 @@ class StringMethods {
         String uString = name.toUpperCase();
         System.out.println(uString);
 
-        // Trim is used to trim the unusual space from front
+        // Trim is used to trim the unusual space from extreams
         String nonTrimmeString = "    AYUSH     ";
         System.out.println(nonTrimmeString);
         // Two ways to use trim 
