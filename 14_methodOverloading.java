@@ -1,9 +1,13 @@
 class MethodOverloading {
 
-    static void telljock(){
-        System.out.println("To the guy who invented zero: Thanks for nothing!");
-    }
+static void foo(){
+    System.out.println("Good morning");
+}
+static void foo(int a ){
+    System.out.println("Good morning " + a + " bro");
+}
 public static void main(String[] args) {
-    telljock(); 
+    foo();
+    foo(50);
 }  
 }
