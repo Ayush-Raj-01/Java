@@ -6,17 +6,17 @@ class MyEmployee {
     private int id;
     private String name;
 
-    void setName(String n){
-        name = n ;
+    public void setName(String n){
+        name = n ;  
     }
-    String getName(){
+    public String getName(){
         return name;
     }
 
-    void setId(int i){
+    public void setId(int i){
         id = i;
     }
-    int getId(){
+    public int getId(){
         return id;
     }
 }
